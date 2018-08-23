@@ -46,7 +46,8 @@ class Dashboard extends React.Component {
                         c: 25,
                         d: 26,
                         f: 27
-                    }
+                    },
+                    userAnswer: null,
                 },
             nextQuestion: {}
         };
@@ -69,7 +70,7 @@ class Dashboard extends React.Component {
                 <h1>Welcome to the Dashboard!</h1>
                 <div className="dashboard">
                     <div className="left">
-                        <p>This part is a list of lessons, please select one</p>
+                        <p>Please select a lesson to choose a topic:</p>
                         {lessonList}
                     </div>
                     <div className="right">
